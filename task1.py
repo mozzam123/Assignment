@@ -1,3 +1,18 @@
+# Task
+
+"""
+We would need to retrieve ADDRESS of all OFFICIAL BOUTIQUES of some Designer
+Brands. Below is the company website where the users want to advertise. So we would want a
+list of all the addresses
+Country : UK: London
+Store/brand: Cartier
+Company url: https://stores.cartier.com/it/search?
+q=&category=storeLocatorSearch&r=10&storetype=false
+Output: Address list for above in a CSV format and code snippet
+
+"""
+
+
 import requests
 from bs4 import BeautifulSoup
 import json
